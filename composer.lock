@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "099f542ea79716205ca3d1cc2c478c34",
+    "content-hash": "bee5ca4de2dd34b4cca1b402f66b255f",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -712,6 +712,41 @@
             "description": "A Redis-based session handler with optimistic locking",
             "homepage": "https://github.com/colinmollenhour/php-redis-session-abstract",
             "time": "2021-04-07T21:51:17+00:00"
+        },
+        {
+            "name": "community-engineering/language-pt_br",
+            "version": "0.0.44",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-pt_BR.git",
+                "reference": "7dba2ab666e3e0ec46aa8ce8233729727019fe9c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-pt_BR/zipball/7dba2ab666e3e0ec46aa8ce8233729727019fe9c",
+                "reference": "7dba2ab666e3e0ec46aa8ce8233729727019fe9c",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "pt_BR language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-pt_BR/issues",
+                "source": "https://github.com/magento-l10n/language-pt_BR/tree/v0.0.44"
+            },
+            "time": "2021-04-14T00:04:44+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -20267,6 +20302,46 @@
             "time": "2019-11-06T18:30:11+00:00"
         },
         {
+            "name": "wolfsellers/module-enabledisabletfa",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wolfsellers/module-enabledisabletfa.git",
+                "reference": "57e0f33861f989c5017f40e986d7e72d35c488d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wolfsellers/module-enabledisabletfa/zipball/57e0f33861f989c5017f40e986d7e72d35c488d9",
+                "reference": "57e0f33861f989c5017f40e986d7e72d35c488d9",
+                "shasum": ""
+            },
+            "require": {
+                "magento/module-two-factor-auth": "1.*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "psr-4": {
+                    "WolfSellers\\EnableDisableTfa\\": ""
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rus0",
+                    "email": "andonid88@gmail.com",
+                    "homepage": "https://wolfsellers.com"
+                }
+            ],
+            "description": "Adds enable disable switch for the Two-factor Authorization",
+            "time": "2020-10-13T01:52:01+00:00"
+        },
+        {
             "name": "yotpo/magento2-module-yotpo-reviews",
             "version": "3.1.3",
             "dist": {
@@ -25460,5 +25535,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }

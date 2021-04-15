@@ -12,8 +12,10 @@
     },
     "version": "2.4.2",
     "require": {
+        "community-engineering/language-pt_br": "^0.0.44",
+        "magento/composer-root-update-plugin": "~1.1",
         "magento/product-community-edition": "2.4.2",
-        "magento/composer-root-update-plugin": "~1.1"
+        "wolfsellers/module-enabledisabletfa": "^1.0"
     },
     "autoload": {
         "exclude-from-classmap": [
@@ -77,4 +79,3 @@
         "magento-force": "override"
     }
 }
-
